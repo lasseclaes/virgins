@@ -6,57 +6,96 @@
 
 img {
     width: 50vw;
+    margin: 0px;
+    padding: 0px;
 }
 
-#hero,
-img {
-    width: 100%;
+#hero {
+    width: 100vw;
 }
 
-/**#hero {
-  background-color: azure;
+body::before {
+    content: "Default. mobile/under 576px. Deafult i Bootstrap.";
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    opacity: 0.5;
+
 }
 
-#voresis {
-  background-color: lightyellow;
+
+section {
+    border: solid 1px black;
 }
 
-#tilbud {
-  background-color: burlywood;
-}
-
-#omos {
-  background-color: lavender;
-}/**
 
 /**************************************************/
 /* Small devices (landscape phones, 576px and up) */
 /**************************************************/
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+
+    body {
+        background-color: hotpink;
+    }
+
+    body::before {
+        content: "'sm-': lig el. over 576px.";
+    }
+}
 
 /* END "sm-" 576px and up */
+
 
 
 /**************************************************/
 /* // Medium devices (tablets, 768px and up) */
 /**************************************************/
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    body {
+        background-color: yellow;
+    }
 
-/* END "md-" 768px and up */
+    body::before {
+        content: "'md': lig el. over 768px. ";
+    }
+
+    /* END "md-" 768px and up */
+}
+
+
+
 
 
 /**************************************************/
 /* // Large devices (desktops, 992px and up) */
 /**************************************************/
 @media (min-width: 992px) {
+    body {
+        background-color: peru;
+    }
+
+    body::before {
+        content: "'lg': lig el. over 992px.";
+    }
 
     /* END "lg-" 992px and up */
 }
+
+
 
 /**************************************************/
 /* // Extra large devices (large desktops, 1200px and up) */
 /**************************************************/
 @media (min-width: 1200px) {
+
+    body {
+        background-color: blue;
+    }
+
+    body::before {
+        content: "'xl': lig el. over 1200px.";
+    }
 
     /* END "xl-" 1200px and up */
 }
