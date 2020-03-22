@@ -33,6 +33,14 @@ section {
     border: solid 1px black;
 }
 
+#om {
+    width: 100vw;
+    height: auto;
+    background-size: cover;
+
+
+}
+
 #event img {
     width: 90vw;
 }
