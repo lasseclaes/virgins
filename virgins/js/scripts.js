@@ -2,8 +2,9 @@
     $(window).on('load', function () {
         $.instagramFeed({
             'username': 'instagram',
-            'container': "#instagram-feed1",
+            'container': "#my-instagram-feed",
             'display_profile': true,
+            'display_biography': true,
             'display_gallery': true,
             'callback': null,
             'styling': true,
