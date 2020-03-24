@@ -37,7 +37,8 @@ body::before {
 h1 {
     font-family: 'Sacramento', cursive;
     margin: 2vw 0;
-    font-size: 3rem;
+    font-size: 3.5rem;
+    margin-left: 2vw;
 
 }
 
@@ -45,6 +46,7 @@ h2,
 h3 {
     font-family: 'Sacramento', bold;
     color: #e71527;
+    margin-left: 2vw;
 
 }
 
@@ -52,10 +54,12 @@ h4 {
     font-family: 'Quicksand', sans-serif;
     color: #f8afa1;
     text-shadow: 1px 1px black;
+    margin-left: 2vw;
 }
 
 p {
     font-family: 'Quicksand', sans-serif;
+    margin-left: 2vw;
 
 }
 
@@ -66,7 +70,7 @@ li {
 }
 
 li img {
-    width: 5vw;
+    width: 7vw;
     padding: 1vw;
 }
 
@@ -101,11 +105,13 @@ nav img {
 #hero h1 {
     color: #f8afa1;
     font-family: 'Quicksand', sans-serif;
-    text-shadow: 1px 1px black
+    text-shadow: 1px 1px black;
+    font-size: 3rem;
 }
 
 #hero img {
     width: 100vw;
+    height: 80vw;
     padding: 0;
     margin: 0;
 }
