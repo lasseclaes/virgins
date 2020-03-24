@@ -37,7 +37,7 @@ body::before {
 h1 {
     font-family: 'Sacramento', cursive;
     margin: 2vw 0;
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin-left: 2vw;
 
 }
@@ -128,8 +128,8 @@ section {
 }
 
 #cupcake img {
-    margin-top: 0vw;
-    width: 90vw;
+    margin-top: 30vw;
+    width: 47vw;
 }
 
 
@@ -137,6 +137,30 @@ section {
     width: 90vw;
 }
 
+button {
+    background-color: #a2b824;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 2vw;
+}
+
+.rotate-scale-up {
+    animation: rotate-scale-up 0.65s linear both;
+}
+
+@keyframes rotate-scale-up {
+    0% {
+        transform: scale(1) rotateZ(0);
+    }
+
+    50% {
+        transform: scale(2) rotateZ(180deg);
+    }
+
+    100% {
+        transform: scale(1) rotateZ(360deg);
+    }
+}
 
 /**************************************************/
 /* Small devices (landscape phones, 576px and up) */
@@ -194,6 +218,28 @@ section {
     body::before {
         content: "'xl': lig el. over 1200px.";
     }
+
+    nav img {
+        width: 5vw;
+        border: black solid 0.2px;
+    }
+
+    img {
+        width: 20vw;
+    }
+
+    #hero h1 {
+        font-size: 6rem;
+    }
+
+    #hero img {
+        height: 70vw;
+    }
+
+    li img {
+        width: 4vw;
+    }
+
 
     #baggrund img {
         width: 100%;
