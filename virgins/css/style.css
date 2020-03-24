@@ -23,8 +23,16 @@ body::before {
     left: 0;
     z-index: 1000;
     opacity: 0.5;
+    color: #f8afa1;
 
 }
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+
 
 h1 {
     font-family: 'Sacramento', cursive;
@@ -42,7 +50,7 @@ h3 {
 
 h4 {
     font-family: 'Quicksand', sans-serif;
-    color: white;
+    color: #f8afa1;
     text-shadow: 1px 1px black;
 }
 
@@ -77,14 +85,21 @@ nav img {
     border: black solid 0.2px;
 }
 
+.parallax-window {
+    min-height: 150px;
+    background: transparent;
+
+}
+
 
 .jumbotron {
     padding: 0;
+    margin: 0;
 }
 
 
 #hero h1 {
-    color: white;
+    color: #f8afa1;
     font-family: 'Quicksand', sans-serif;
     text-shadow: 1px 1px black
 }
@@ -96,18 +111,12 @@ nav img {
 }
 
 section {
-    background-color: #f8afa1;
+    background-color: white;
+
     display: block;
+
 }
 
-
-/*#om {
-    height: 160vw;
-    width: 100vw;
-    background-size: cover;
-    background-image: url(../imgs/baggrund.jpeg);
-    background-position: center;
-}*/
 
 #om img {
     width: 30vw;
