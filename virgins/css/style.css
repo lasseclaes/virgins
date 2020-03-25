@@ -88,6 +88,12 @@ nav h1 {
     margin-right: 2rem;
 }
 
+#indgredienser li {
+    font-family: 'Stalemate', cursive;
+    color: #e71527;
+    font-size: 2.2rem;
+}
+
 /**********************************************/
 
 /**********************billeder****************/
@@ -145,7 +151,15 @@ nav img {
 }
 
 #fler_tranebær {
-    margin-top: 200vw;
+    margin-top: 190vw;
+}
+
+#infografik img {
+    width: 100%;
+}
+
+#opskrift_tranebær {
+    margin-top: 165vw;
 }
 
 #event img {
@@ -159,23 +173,24 @@ section {
     display: block;
 }
 
-
-
-
-#halv_cupcake {
-    margin-top: 20vw;
-    height: 107vw;
-    background-size: contain;
-    background-image: url(../imgs/halv_cupcake.png);
+#t {
+    margin-top: 40vw;
 }
 
-
-#cupcake {
-    display: none;
-    background-size: cover;
-    background-image: url(../imgs/cupcake.png);
-
+#l {
+    margin-top: 15vw;
 }
+
+#a {
+    margin-left: 60vw;
+    margin-top: -20vw;
+}
+
+#s {
+    margin-left: 55vw;
+    margin-top: 10vw;
+}
+
 
 
 button {
