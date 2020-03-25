@@ -23,7 +23,7 @@ body::before {
     left: 0;
     z-index: 1000;
     opacity: 0.5;
-    color: #f8afa1;
+    color: black;
 
 }
 
@@ -32,21 +32,22 @@ body::before {
     margin: 0;
 }
 
-
+/****************fonts*****************/
 
 h1 {
-    font-family: 'Sacramento', cursive;
+    font-family: 'Stalemate', cursive;
     margin: 2vw 0;
-    font-size: 3rem;
+    font-size: 4.2rem;
     margin-left: 2vw;
 
 }
 
 h2,
 h3 {
-    font-family: 'Sacramento', bold;
+    font-family: 'Stalemate', cursive;
     color: #e71527;
     margin-left: 2vw;
+    font-size: 3rem;
 
 }
 
@@ -69,24 +70,44 @@ li {
 
 }
 
+nav h1 {
+    font-family: 'Stalemate', cursive;
+    margin: 0;
+
+}
+
+#hero h1 {
+    color: #f8afa1;
+    font-family: 'Quicksand', sans-serif;
+    text-shadow: 1px 1px black;
+    font-size: 3rem;
+}
+
+.navbar-brand {
+    font-size: 3rem;
+    margin-right: 2rem;
+}
+
+/**********************************************/
+
+/**********************billeder****************/
+
 li img {
     width: 7vw;
     padding: 1vw;
 }
 
 img {
-    width: 50vw;
+    width: 40vw;
     margin: 0;
     padding: 0;
 }
 
-nav {
-    font-family: 'Sacramento', cursive;
-}
 
 nav img {
-    width: 10vw;
+    width: 15vw;
     border: black solid 0.2px;
+    margin-right: 2rem;
 }
 
 .parallax-window {
@@ -101,14 +122,6 @@ nav img {
     margin: 0;
 }
 
-
-#hero h1 {
-    color: #f8afa1;
-    font-family: 'Quicksand', sans-serif;
-    text-shadow: 1px 1px black;
-    font-size: 3rem;
-}
-
 #hero img {
     width: 100vw;
     height: 80vw;
@@ -116,26 +129,50 @@ nav img {
     margin: 0;
 }
 
-section {
-    background-color: white;
-    display: block;
+#header_flaske img {
+    width: 10vw;
+    margin-top: 25vw;
+
 }
 
+#cocktail img {
+    margin-top: 6vw;
+}
 
 #om img {
     width: 30vw;
 
 }
 
-#cupcake img {
-    margin-top: 30vw;
-    width: 47vw;
-}
-
-
 #event img {
     width: 90vw;
 }
+
+/********************************************/
+
+section {
+    background-color: white;
+    display: block;
+}
+
+
+
+
+#halv_cupcake {
+    margin-top: 20vw;
+    height: 107vw;
+    background-size: contain;
+    background-image: url(../imgs/halv_cupcake.png);
+}
+
+
+#cupcake {
+    display: none;
+    background-size: cover;
+    background-image: url(../imgs/cupcake.png);
+
+}
+
 
 button {
     background-color: #a2b824;
@@ -144,7 +181,7 @@ button {
     border-radius: 2vw;
 }
 
-.rotate-scale-up {
+/**********.rotate-scale-up {
     animation: rotate-scale-up 0.65s linear both;
 }
 
@@ -160,7 +197,7 @@ button {
     100% {
         transform: scale(1) rotateZ(360deg);
     }
-}
+}*************/
 
 /**************************************************/
 /* Small devices (landscape phones, 576px and up) */
@@ -187,6 +224,20 @@ button {
         content: "'md': lig el. over 768px. ";
     }
 
+
+    #halv_cupcake {
+        display: none;
+    }
+
+
+    #cupcake {
+        height: 64vw;
+        background-size: contain;
+        background-image: url(../imgs/cupcake.png);
+        display: block;
+        margin-top: 20vw;
+    }
+
     /* END "md-" 768px and up */
 }
 
@@ -204,6 +255,20 @@ button {
         content: "'lg': lig el. over 992px.";
     }
 
+    #halv_cupcake {
+        display: none;
+    }
+
+
+    #cupcake img {
+        height: 100vw;
+        widows: 50vw;
+        background-size: cover;
+        background-image: url(../imgs/cupcake.png);
+        display: block;
+
+    }
+
     /* END "lg-" 992px and up */
 }
 
@@ -219,6 +284,12 @@ button {
         content: "'xl': lig el. over 1200px.";
     }
 
+    .parallax-window {
+        min-height: 500px;
+        background: transparent;
+
+    }
+
     nav img {
         width: 5vw;
         border: black solid 0.2px;
@@ -226,6 +297,7 @@ button {
 
     img {
         width: 20vw;
+
     }
 
     #hero h1 {
@@ -235,6 +307,8 @@ button {
     #hero img {
         height: 70vw;
     }
+
+
 
     li img {
         width: 4vw;
@@ -249,6 +323,24 @@ button {
 
     #flaske img {
         width: 15vw;
+    }
+
+    #halv_cupcake {
+        display: none;
+    }
+
+
+    #cupcake {
+        height: 60vw;
+        background-size: contain;
+        background-image: url(../imgs/cupcake.png);
+        display: block;
+
+
+    }
+
+    #event img {
+        width: 40vw;
     }
 
     /* END "xl-" 1200px and up */
