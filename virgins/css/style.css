@@ -129,11 +129,6 @@ nav img {
     margin: 0;
 }
 
-#header_flaske img {
-    width: 10vw;
-    margin-top: 25vw;
-
-}
 
 #cocktail img {
     margin-top: 6vw;
@@ -142,6 +137,15 @@ nav img {
 #om img {
     width: 30vw;
 
+}
+
+#lime {
+    margin-top: 135vw;
+    margin-left: 20vw;
+}
+
+#fler_tranebær {
+    margin-top: 200vw;
 }
 
 #event img {
