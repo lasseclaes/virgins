@@ -51,12 +51,6 @@ h3 {
 
 }
 
-h4 {
-    font-family: 'Quicksand', sans-serif;
-    color: #f8afa1;
-    text-shadow: 1px 1px black;
-    margin-left: 2vw;
-}
 
 p {
     font-family: 'Quicksand', sans-serif;
@@ -77,7 +71,6 @@ nav h1 {
 }
 
 #hero h1 {
-    color: #f8afa1;
     font-family: 'Quicksand', sans-serif;
     text-shadow: 1px 1px black;
     font-size: 3rem;
@@ -151,7 +144,7 @@ nav img {
 }
 
 #fler_tranebær {
-    margin-top: 190vw;
+    margin-top: 200vw;
 }
 
 #infografik img {
@@ -159,7 +152,7 @@ nav img {
 }
 
 #opskrift_tranebær {
-    margin-top: 165vw;
+    margin-top: 175vw;
 }
 
 #event img {
@@ -174,7 +167,7 @@ section {
 }
 
 #t {
-    margin-top: 40vw;
+    margin-top: 38vw;
 }
 
 #l {
@@ -227,6 +220,19 @@ button {
     body::before {
         content: "'sm-': lig el. over 576px.";
     }
+
+    #lime {
+        margin-top: 110vw;
+        margin-left: 20vw;
+    }
+
+    #fler_tranebær {
+        margin-top: 165vw;
+    }
+
+    #opskrift_tranebær {
+        margin-top: 160vw;
+    }
 }
 
 /* END "sm-" 576px and up */
@@ -248,13 +254,18 @@ button {
         display: none;
     }
 
-
-    #cupcake {
-        height: 64vw;
-        background-size: contain;
-        background-image: url(../imgs/cupcake.png);
-        display: block;
+    #lime {
         margin-top: 20vw;
+        margin-left: 50vw;
+    }
+
+    #fler_tranebær {
+        margin-top: 85vw;
+        margin-left: 5vw;
+    }
+
+    #opskrift_tranebær {
+        margin-top: 150vw;
     }
 
     /* END "md-" 768px and up */
