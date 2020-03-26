@@ -1,7 +1,7 @@
-$(function () {
-    $(window).on('load', function () {
+$(window).on('load', function () {
         $('.parallax-window').parallax({});
-
+   });
+$(function () {
         $.instagramFeed({
             'username': 'instagram',
             'container': "#my-instagram-feed",
@@ -14,5 +14,4 @@ $(function () {
             'items_per_row': 3,
             'margin': 2
         });
-    });
-})(jQuery);
+}(jQuery));

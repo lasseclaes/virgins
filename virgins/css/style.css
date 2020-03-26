@@ -154,6 +154,22 @@ button {
     border-radius: 2vw;
 }
 
+/* lacj */
+
+#flaske{
+  z-index: 10;
+  left: 4vw;
+}
+
+#new-lime{
+  z-index: 5;
+  left: 0;
+  top: 6vw;
+  width: 12vw;
+  height: 12vw;
+}
+
+
 
 /**************************************************/
 /* Small devices (landscape phones, 576px and up) */
@@ -182,8 +198,6 @@ button {
 
     /* END "md-" 768px and up */
 }
-
-
 
 
 
