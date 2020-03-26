@@ -10,7 +10,7 @@
             'styling': true,
             'items': 6,
             'items_per_row': 3,
-            'margin': 1
+            'margin': 2
         });
     });
 })(jQuery);

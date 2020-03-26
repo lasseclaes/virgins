@@ -129,22 +129,18 @@ nav img {
 }
 
 
-#cocktail img {
-    margin-top: 6vw;
-}
-
 #om img {
     width: 30vw;
 
 }
 
 #lime {
-    margin-top: 135vw;
-    margin-left: 20vw;
+    top: 250vw;
+    left: 20vw;
 }
 
 #fler_tranebær {
-    margin-top: 200vw;
+    top: 310vw;
 }
 
 #infografik img {
@@ -152,7 +148,7 @@ nav img {
 }
 
 #opskrift_tranebær {
-    margin-top: 175vw;
+    top: 815vw;
 }
 
 #event img {
@@ -250,10 +246,6 @@ button {
     }
 
 
-    #halv_cupcake {
-        display: none;
-    }
-
     #lime {
         margin-top: 20vw;
         margin-left: 50vw;
@@ -285,19 +277,39 @@ button {
         content: "'lg': lig el. over 992px.";
     }
 
-    #halv_cupcake {
-        display: none;
+    #indgredienser {
+        margin-left: 50vw;
+        margin-top: 50vw;
+    }
+
+    #t {
+        margin-top: 0vw;
+    }
+
+    #l {
+        margin-top: 0vw;
+    }
+
+    #a {
+        margin-left: 0vw;
+        margin-top: 0vw;
+    }
+
+    #s {
+        margin-left: 0vw;
+        margin-top: 0vw;
+    }
+
+    li img {
+        width: 5vw;
+    }
+
+    #opskrift_tranebær {
+        margin-top: 80vw;
     }
 
 
-    #cupcake img {
-        height: 100vw;
-        widows: 50vw;
-        background-size: cover;
-        background-image: url(../imgs/cupcake.png);
-        display: block;
 
-    }
 
     /* END "lg-" 992px and up */
 }
@@ -315,19 +327,18 @@ button {
     }
 
     .parallax-window {
-        min-height: 500px;
+        min-height: 300px;
         background: transparent;
 
+    }
+
+    img {
+        width: 20vw;
     }
 
     nav img {
         width: 5vw;
         border: black solid 0.2px;
-    }
-
-    img {
-        width: 20vw;
-
     }
 
     #hero h1 {
@@ -337,7 +348,6 @@ button {
     #hero img {
         height: 70vw;
     }
-
 
 
     li img {
@@ -355,23 +365,38 @@ button {
         width: 15vw;
     }
 
-    #halv_cupcake {
-        display: none;
+    #lime {
+        margin: 0;
+        left: 62vw;
+        top: 110vw;
     }
 
+    #lime img {
+        width: 10vw;
+    }
 
-    #cupcake {
-        height: 60vw;
-        background-size: contain;
-        background-image: url(../imgs/cupcake.png);
-        display: block;
+    #fler_tranebær {
+        margin: 0;
+        right: 10vw;
+        top: 140vw;
+    }
 
+    #fler_tranebær img {
+        width: 15vw;
+    }
 
+    #infografik img {
+        width: 70vw;
+    }
+
+    #opskrift_tranebær {
+        top: 330vw;
     }
 
     #event img {
         width: 40vw;
     }
+
 
     /* END "xl-" 1200px and up */
 }
