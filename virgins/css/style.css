@@ -96,13 +96,6 @@ li img {
     padding: 1vw;
 }
 
-img {
-    width: 40vw;
-    margin: 0;
-    padding: 0;
-}
-
-
 nav img {
     width: 15vw;
     border: black solid 0.2px;
@@ -112,7 +105,6 @@ nav img {
 .parallax-window {
     min-height: 150px;
     background: transparent;
-
 }
 
 
@@ -121,12 +113,6 @@ nav img {
     margin: 0;
 }
 
-#hero img {
-    width: 100vw;
-    height: 80vw;
-    padding: 0;
-    margin: 0;
-}
 
 
 #om img {
@@ -135,20 +121,21 @@ nav img {
 }
 
 #lime {
-    top: 250vw;
-    left: 20vw;
+    top: 270vw;
+    left: 25vw;
+}
+
+#lime img {
+    width: 23vw;
 }
 
 #fler_tranebær {
-    top: 310vw;
+    top: 330vw;
 }
 
-#infografik img {
-    width: 100%;
-}
 
 #opskrift_tranebær {
-    top: 815vw;
+    top: 835vw;
 }
 
 #event img {
@@ -332,10 +319,6 @@ button {
 
     }
 
-    img {
-        width: 20vw;
-    }
-
     nav img {
         width: 5vw;
         border: black solid 0.2px;
@@ -343,10 +326,6 @@ button {
 
     #hero h1 {
         font-size: 6rem;
-    }
-
-    #hero img {
-        height: 70vw;
     }
 
 
@@ -393,9 +372,7 @@ button {
         top: 330vw;
     }
 
-    #event img {
-        width: 40vw;
-    }
+
 
 
     /* END "xl-" 1200px and up */

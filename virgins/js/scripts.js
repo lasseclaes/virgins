@@ -1,5 +1,7 @@
-(function ($) {
+$(function () {
     $(window).on('load', function () {
+        $('.parallax-window').parallax({});
+
         $.instagramFeed({
             'username': 'instagram',
             'container': "#my-instagram-feed",
