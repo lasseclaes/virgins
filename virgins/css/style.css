@@ -118,20 +118,6 @@ nav img {
 }
 
 
-#lime {
-    top: 270vw;
-    left: 25vw;
-}
-
-
-#fler_tranebær {
-    top: 330vw;
-}
-
-
-#opskrift_tranebær {
-    top: 835vw;
-}
 
 
 /********************************************/
@@ -178,19 +164,6 @@ button {
     body::before {
         content: "'sm-': lig el. over 576px.";
     }
-
-    #lime {
-        margin-top: 110vw;
-        margin-left: 20vw;
-    }
-
-    #fler_tranebær {
-        margin-top: 165vw;
-    }
-
-    #opskrift_tranebær {
-        margin-top: 160vw;
-    }
 }
 
 /* END "sm-" 576px and up */
@@ -205,21 +178,6 @@ button {
 
     body::before {
         content: "'md': lig el. over 768px. ";
-    }
-
-
-    #lime {
-        margin-top: 20vw;
-        margin-left: 50vw;
-    }
-
-    #fler_tranebær {
-        margin-top: 85vw;
-        margin-left: 5vw;
-    }
-
-    #opskrift_tranebær {
-        margin-top: 150vw;
     }
 
     /* END "md-" 768px and up */
@@ -266,11 +224,6 @@ button {
         width: 5vw;
     }
 
-    #opskrift_tranebær {
-        margin-top: 80vw;
-    }
-
-
 
 
     /* END "lg-" 992px and up */
@@ -309,25 +262,6 @@ button {
     }
 
 
-    #lime {
-        margin: 0;
-        left: 62vw;
-        top: 110vw;
-    }
-
-
-
-    #fler_tranebær {
-        margin: 0;
-        right: 10vw;
-        top: 140vw;
-    }
-
-
-
-    #opskrift_tranebær {
-        top: 330vw;
-    }
 
 
 
